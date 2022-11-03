@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Git checkout') {
            steps {
-                git branch: 'main', credentialsId: 'github', url: 'https://github.com/gogineniprathyusha/Jenkinspipeline_terraform.git'
+                git branch: 'main', credentialsId: 'github', url: 'https://github.com/gogineniprathyusha/Docker-nodejs.git'
             }
         }
         
@@ -23,8 +23,3 @@ pipeline {
         }
     }    
 }
-
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
