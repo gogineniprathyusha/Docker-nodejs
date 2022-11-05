@@ -6,6 +6,6 @@ resource "aws_instance" "dockerimage" {
   associate_public_ip_address = true
   user_data = file("dockerinstall.sh")
   tags = {
-    Name = dockerimage
+    Name = "dockerimage"
 }
 }
